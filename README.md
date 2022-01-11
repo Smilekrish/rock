@@ -1,10 +1,10 @@
-# 𝗔𝗚𝗢𝗥𝗔 𝗚𝗔𝗡𝗚𝗦𝗧𝗘𝗥𝗦
+# 𝗞𝗔𝗥𝗡𝗔𝗧𝗔𝗞𝗔 𝗘𝗩𝗜𝗟 𝗣𝗔𝗜𝗥𝗦
 
 #### 𝗗𝗘𝗣𝗟𝗢𝗬 𝗨𝗣𝗧𝗢 𝟯𝟬 𝗕𝗢𝗧𝗦 𝗜𝗡 𝗔 𝗦𝗜𝗡𝗚𝗟𝗘 𝗔𝗣𝗣 
 ### SUDO HANDLER 
 ### * plugins like (*ping), 
 ### aa (*bigspam) , (*raid) ,(*replyraid) and more
-## [𝗔𝗚𝗢𝗥𝗔 𝗚𝗔𝗡𝗚𝗦𝗧𝗘𝗥](t.me/Professor_agora)
+# [𝗘𝗩𝗜𝗟 𝗣𝗔𝗜𝗥𝗦](t.me/Professor_agora)
 
 <p align="center">
   <img src="https://telegra.ph/file/2870fbaa8bc8d2b41f37f.jpg">
@@ -16,11 +16,11 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Agora-OS/EVIL-PAIRS)
 
-# 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 𝗢𝗙 𝗔𝗚𝗢𝗥𝗔 𝗚𝗔𝗡𝗚𝗦𝗧𝗘𝗥
+# 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 𝗢𝗙 𝗘𝗩𝗜𝗟 𝗣𝗔𝗜𝗥𝗦
 
    - 𝙳𝙴𝙿𝙻𝙾𝚈 𝚄𝙿𝚃𝙾 𝟹𝟶 𝙱𝙾𝚃𝚂 𝙰𝚃 𝙰 𝚂𝙰𝙼𝙴 𝚃𝙸𝙼𝙴
 
-   - 𝙼𝙾𝙽𝙴𝚈 𝙷𝙴𝙸𝚂𝚃 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃 𝙵𝙰𝚂𝚃 𝙰𝙽𝙳 𝚂𝚃𝚁𝙾𝙽𝙶
+   - 𝙼𝙰𝙳𝙴 𝙱𝚈 𝙺𝙰𝚁𝙽𝙰𝚃𝙰𝙺𝙰 𝙲𝙾𝚄𝙿𝙻𝙴𝚂 ( 𝙿𝙰𝙸𝚁𝚂 )
 
    - REPLYRAID , RAID PLUGIN , HANDLER *
 
