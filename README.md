@@ -31,7 +31,7 @@
 ## SUPPORT GROUP
    - 𝗝𝗢𝗜𝗡 [𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣](https://t.me/AGORA_SPAM_OFFICIAL) 𝗙𝗢𝗥 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗖𝗘.
 
-## Credits
+#    𝙾𝚆𝙽𝙴𝚁𝚂
    - 𝚃𝚑𝚊𝚗𝚔𝚜 𝚝𝚘 [𝙰𝚂𝙷𝚄](https://t.me/toxic_than_toxiest)
    - 𝚃𝚑𝚊𝚗𝚔𝚜 𝚝𝚘 [𝚂𝙷𝙰𝚁𝙰𝚃𝙷](https://t.me/agora_professor)
 
