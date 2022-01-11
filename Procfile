@@ -1,1 +1,1 @@
-worker: python3 MH-Spam-Bot.py
+worker: python3 EVIL-PAIRS.py
