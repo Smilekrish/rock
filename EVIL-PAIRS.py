@@ -1031,7 +1031,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("STATUS CHANGED SUCESSFULLY")
+                await event.edit("ಯಶಸ್ವಿಯಾಗಿ ಬದಲಾಯಿತು")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1075,11 +1075,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = yukki[0]
-            text = "RUKK BC ARAH HU..."
+            text = "ಹೋಗ್ತಿದೀನಿ ವೇಟ್ ಮಾಡು..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("HA BHAI AB BOL KISKA FAADNA HAI")
+                await event.edit("ಅವ್ನ್ ಅಮ್ಮನ್ ಹೇಳು ಯಾವನು ಅದು ಅಂತ")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1174,11 +1174,11 @@ async def _(e):
         if len(e.text) > 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "GANGSTERS ARAHE HAI....."
+            text = "....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("AB KIS BAAR AGORA BHAI KI SARKAR")
+                await event.edit("ಇದು ಯಾವ್ದೋ ದರಿದ್ರ ಗ್ರೂಪ್ ಇಲ್ಲಿಂದ ಎಕ್ಸಿಟ್ ಆಗಾನ ಬನ್ನಿ")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1219,7 +1219,7 @@ async def _(e):
 
 
 async def spam(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer,#EVIL_PAIRS."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1559,7 +1559,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "AB REPLY KAR MADARCHOD"
+            text = "ಎನೋ ತುಂಬಾ ಯೆಗ್ರಡ್ತಿದ್ದೆ ಈವಾಗ ಮಾತಾಡು ನೋಡನಾ"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1569,7 +1569,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "GAAND MAI DUM HAI THO REPLY KAR MADARCHOD"
+            text = "ಎನೋ ತುಂಬಾ ಯೆಗ್ರಡ್ತಿದ್ದೆ ಈವಾಗ ಮಾತಾಡು ನೋಡನಾ"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1624,7 +1624,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "AB TERR BEHAN KR BAARI"
+            text = "ಹೋಗು ಬದ್ಕು ಹೋಗು ನಿಂಗೆ ಪ್ರಾಣ ಭಿಕ್ಷೆ ಕೊಟ್ಟೀನಿ"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1635,7 +1635,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "AB TERE BEHAN K BAARI HAI"
+            text = "ಹೋಗು ಬದ್ಕು ಹೋಗು ನಿಂಗೆ ಪ್ರಾಣ ಭಿಕ್ಷೆ ಕೊಟ್ಟೀನಿ"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1668,7 +1668,7 @@ async def get_chatinfo(event):
         try:
             chat_info = await event.client(GetFullChannelRequest(chat))
         except ChannelInvalidError:
-            await event.reply("`Invalid channel/group`")
+            await event.reply("`ಗ್ರೂಪ್ ಲಿಂಕ್ ನೀಟ್ ಆಗಿ ಹಾಕು ಚಿನ್ನ`")
             return None
         except ChannelPrivateError:
             await event.reply(
@@ -1805,7 +1805,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f" AGORA GANGSTERS\n`{ms}` ms{ALIVE_NAME} ")
+        await event.edit(f."〘𓆩𝗞𝗔𝗥𝗡𝗔𝗧𝗔𝗞𝗔𓆪〙𓆩𝗘𝗩♛︎𝗟 𝗣𝗔♛︎𝗥𝗦𓆪\n`{ms}` ms{ALIVE_NAME} ")
 
 
 
@@ -1844,7 +1844,7 @@ async def ping(e):
 @boy.on(events.NewMessage(incoming=True, pattern=r"\*restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "RUKK REDBULL PI RAH HU\n\nPlease wait till it reboots..."
+        text = "ಸುದರ್ಸ್ಕೋಲ್ತೈದಿನಿ ತಾಳು\n\nಸುದರ್ಸ್ಕೋಲ್ತೈದಿನಿ ತಾಳು..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
@@ -2016,12 +2016,12 @@ async def help(e):
         
 text = """
 
-💥💥 𝙰𝙶𝙾𝚁𝙰 𝙶𝙰𝙽𝙶𝚂𝚃𝙴𝚁 𝙸𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 💥💥
-💥𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 𝙰𝙶𝙾𝚁𝙰💥"""
+💥💥 𝙴𝚅𝙸𝙻 𝙿𝙰𝙸𝚁𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 💥💥
+💥𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 𝙺𝙰𝚁𝙽𝙰𝚃𝙰𝙺𝙰 𝙴𝚅𝙸𝙻 𝙿𝙰𝙸𝚁💥"""
 
 print(text)
 print("")
-print("𝙰𝙶𝙾𝚁𝙰 𝙶𝙰𝙽𝙶𝚂𝚃𝙴𝚁𝚂 𝙰𝚁𝙴 𝚁𝙴𝙰𝙳𝚈")
+print("𝙴𝚅𝙸𝙻 𝙿𝙰𝙸𝚁𝚂 𝚂𝙾𝙸𝙻𝙳𝙴𝚁𝚂 𝙰𝚁𝙴 𝚁𝙴𝙰𝙳𝚈")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
