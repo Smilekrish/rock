@@ -14,7 +14,7 @@
 
 ## 🚀 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙾 𝙷𝙴𝚁𝙾𝙺𝚄 💰
 
-[![𝙳𝙴𝙿𝙻𝙾𝚈](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Agora-OS/EVIL-PAIRS)
+[![𝙳𝙴𝙿𝙻𝙾𝚈](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/smilekrish/rock)
 
 # 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 𝗢𝗙 𝗘𝗩𝗜𝗟 𝗣𝗔𝗜𝗥𝗦
 
